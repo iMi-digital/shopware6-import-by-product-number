@@ -1,0 +1,18 @@
+{
+  "name": "imi/shopware6-import-by-product-number",
+  "description": "Shopware 6 Plugin to Import by Product Number",
+  "type": "shopware-platform-plugin",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "ImiImportByProductNumber\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "ImiImportByProductNumber\\ImiImportByProductNumber",
+    "label": {
+      "de-DE": "iMi Import by Product Number",
+      "en-GB": "iMi Import nach Produkt Number"
+    }
+  }
+}
