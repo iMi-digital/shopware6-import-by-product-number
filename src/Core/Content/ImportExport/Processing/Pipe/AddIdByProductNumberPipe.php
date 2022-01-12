@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ImiImportByProductNumber\Core\Content\ImportExport\Processing\Pipe;
+namespace iMidiImportByProductNumber\Core\Content\ImportExport\Processing\Pipe;
 
 use Shopware\Core\Content\ImportExport\Processing\Mapping\MappingCollection;
 use Shopware\Core\Content\ImportExport\Processing\Pipe\AbstractPipe;

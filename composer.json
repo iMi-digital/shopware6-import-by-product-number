@@ -2,14 +2,19 @@
   "name": "imi/shopware6-import-by-product-number",
   "description": "Shopware 6 Plugin to Import by Product Number",
   "type": "shopware-platform-plugin",
-  "license": "AGPL-v3.0",
+  "license": "AGPL-3.0-or-later",
+  "version": "1.0.1",
+  "require": {
+    "shopware/core": "*"
+  },
   "autoload": {
     "psr-4": {
-      "ImiImportByProductNumber\\": "src/"
+      "iMidiImportByProductNumber\\": "src/"
     }
   },
   "extra": {
-    "shopware-plugin-class": "ImiImportByProductNumber\\ImiImportByProductNumber",
+    "shopware-plugin-class": "iMidiImportByProductNumber\\iMidiImportByProductNumber",
+    "plugin-icon": "src/Resources/public/imi-digital.png",
     "label": {
       "de-DE": "iMi Import by Product Number",
       "en-GB": "iMi Import nach Produkt Number"
