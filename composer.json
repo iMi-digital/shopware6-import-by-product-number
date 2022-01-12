@@ -2,7 +2,7 @@
   "name": "imi/shopware6-import-by-product-number",
   "description": "Shopware 6 Plugin to Import by Product Number",
   "type": "shopware-platform-plugin",
-  "license": "proprietary",
+  "license": "AGPL-v3.0",
   "autoload": {
     "psr-4": {
       "ImiImportByProductNumber\\": "src/"
